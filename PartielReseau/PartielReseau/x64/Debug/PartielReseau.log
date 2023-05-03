@@ -1,0 +1,6 @@
+﻿  Server.cpp
+C:\Users\Utilisateur\source\repos\PartielReseau\PartielReseau\Server.cpp(38,12): warning C4101: 'clientSocket' : variable locale non référencée
+C:\Users\Utilisateur\source\repos\PartielReseau\PartielReseau\Server.cpp(109,10): warning C4101: 'bRet' : variable locale non référencée
+C:\Users\Utilisateur\source\repos\PartielReseau\PartielReseau\Server.cpp(39,17): warning C4101: 'clientSocketInfo' : variable locale non référencée
+C:\Users\Utilisateur\source\repos\PartielReseau\PartielReseau\Server.cpp(122,12): warning C4101: 'Accept' : variable locale non référencée
+  PartielReseau.vcxproj -> C:\Users\Utilisateur\source\repos\PartielReseau\x64\Debug\PartielReseau.exe

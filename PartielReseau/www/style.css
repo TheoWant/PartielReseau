@@ -1,0 +1,152 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #333333;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a {
+	color: #333333;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #333333;
+	color: white;
+}
+
+nav a {
+	background-color: #333333;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #111111;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+a {
+	background-color: #333333;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #111111;
+}
+
+#hero {
+	background-image: url(hero.jpg);
+	background-position: center center;
+	background-size: cover;
+	padding: 100px;
+	text-align: center;
+	color: white;
+}
+
+#hero h2 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+#hero p {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+#hero strong {
+	color: #d3d3d3;
+}
+
+#hero a {
+	margin-top: 30px;
+}
+
+#products {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#products h2 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+
+.product {
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	margin-bottom: 50px;
+}
+
+.product img {
+	max-width: 100%;
+}
+
+.product h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.product p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.product a {
+	background-color: #333333;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.product a:hover {
+	background-color: #111111;
+}
+
+footer {
+	background-color: #333333;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+}
